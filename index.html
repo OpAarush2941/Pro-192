@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Maze</title>
+        <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+        <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+        <script src="//cdn.jsdelivr.net/gh/n5ro/aframe-physics-system@v4.0.1/dist/aframe-physics-system.min.js" target="_blank"></script>
+        <script src="//unpkg.com/aframe-environment-component@1.1.0/dist/aframe-environment-component.min.js" target="_blank"></script>
+        <script src="https://recast-api.donmccurdy.com/aframe-inspector-plugin-recast.js" crossorigin="anonymous"></script>
+        <script src="//cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js" target="_blank"></script>
+    </head>
+    <body>
+        <a-scene>
+            <a-assets>
+                <a-asset-item id="trophie" src="Assets/scene.gltf"></a-asset-item>
+            </a-assets>
+            <a-sky color="black"></a-sky>
+            <a-camera position="0 3 0"></a-camera>
+            <a-box position="0 0 -25" rotation="90 0 0" color="red" width="50" height="50" length="50"></a-box>
+            <a-box position="-13.5 0 -50" rotation="0 0 0" color="blue" width="23" height="50" length="50"></a-box>
+            <a-box position="13.5 0 -50" rotation="0 0 0" color="blue" width="23" height="50" length="50"></a-box>
+            <a-box position="-13.5 0 0" rotation="0 0 0" color="blue" width="23" height="50" length="50"></a-box>
+            <a-box position="13.5 0 0" rotation="0 0 0" color="blue" width="23" height="50" length="50"></a-box>
+            <a-box position="-25 0 -25" rotation="0 90 0" color="blue" width="50" height="50" length="50"></a-box>
+            <a-box position="25 0 -25" rotation="0 90 0" color="blue" width="50" height="50" length="50"></a-box>
+            <a-box position="2 0 -3.1" width="6" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="-2 0 -5.1" width="10" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="4.6 0 -10" width="10" height="14.2" length="10" rotation="0 0 90"></a-box>
+            <a-box position="6.5 0 -6" width="10" height="10" length="10" rotation="0 0 90"></a-box>
+            <a-box position="11 0 -3.1" width="6" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="15.5 0 -7.25" width="15" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="7.4 0 -14.5" width="10" height="17.2" length="10" rotation="0 0 90"></a-box>
+            <a-box position="-15 0 -14.5" width="10" height="20.2" length="10" rotation="0 0 90"></a-box>
+            <a-box position="-15 0 -10" width="10" height="25" length="10" rotation="0 0 90"></a-box>
+            <a-box position="-1 0 -19" width="10" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="-5 0 -19" width="10" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="15.5 0 -30.5" width="15" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="7.4 0 -23.5" width="10" height="17.2" length="10" rotation="0 0 90"></a-box>
+            <a-box position="-23 0 -35.5" width="25" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="-14 0 -23.5" width="10" height="17.2" length="10" rotation="0 0 90"></a-box>
+            <a-box position="15.5 0 -30.5" width="15" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="-3.25 0 -28.5" width="10" height="27.2" length="10" rotation="0 0 90"></a-box>
+            <a-box position="10 0 -33" width="10" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="12.5 0 -37.5" width="10" height="5" length="10" rotation="0 0 90"></a-box>
+            <a-box position="-3.25 0 -33.5" width="10" height="27.2" length="10" rotation="0 0 90"></a-box>
+            <a-box position="-17 0 -38" width="10" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-box position="-12.75 0 -48" width="10" height="21.5" length="10" rotation="0 0 90"></a-box>
+            <a-box position="-7.5 0 -43" width="10" height="20" length="10" rotation="0 0 90"></a-box>
+            <a-box position="3 0 -46.25" width="7.5" height="10" length="10" rotation="0 90 0"></a-box>
+            <a-entity position="0 5 -53" gltf-model="#trophie" scale="10 10 10" rotation="0 0 0"></a-entity>
+        </a-scene>
+    </body>
+</html>
